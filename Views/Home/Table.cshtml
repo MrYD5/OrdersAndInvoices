@@ -1,0 +1,81 @@
+﻿@using TestServer.Data
+@using TestServer.Models.HomeViewModels
+@model List<InvoiceViewModel>
+
+@{
+    ViewData["Title"] = "Table";
+}
+<h1 class="text-center text-primary">Таблица с качени фактури</h1>
+<div class="d-flex justify-content-end">
+    <button id="showTableBtn" class="btn btn-primary mx-3" >Покажи таблицата</button>
+</div>
+
+<div id="tableContainer" class="table-responsive container-fluid" style="display:none; margin-top:20px;">
+    <form asp-action="UploadInvoice" method="post">
+        <table border="1" cellpadding="10" class="table table-bordered table-striped table-sm">
+            <thead>
+                <tr>
+                    <th>Име</th>
+                    <th>Количество</th>
+                    <th>Ед. Цена</th>
+                    <th>Сума без ДДС</th>
+                    <th>Сума за плащане</th>
+                    <th>Купувач</th>
+                    <th>Продавач</th>
+                    <th>Номер на фактура</th>
+                    <th>Дата</th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (int i = 0; i < Model.Count; i++)
+                {
+                    <tr>
+                        <td>
+                            <input name="Model[@i].ProductName" value="@Model[i].ProductName" />
+                        </td>
+                        <td>
+                            <input name="Model[@i].Amount" value="@Model[i].Amount.ToString("0.##", System.Globalization.CultureInfo.InvariantCulture)"  step="1" />
+                        </td>
+                        <td>
+                            <input name="Model[@i].SinglePrice" value="@Model[i].SinglePrice.ToString("0.##", System.Globalization.CultureInfo.InvariantCulture)" step="0.01" />
+                        </td>
+                        <td>
+                            <input name="Model[@i].SumNoTax" value="@Model[i].SumNoTax.ToString("0.##", System.Globalization.CultureInfo.InvariantCulture)" type="number" step="0.01" />
+                        </td>
+                        <td>
+                            <input name="Model[@i].SumToPay" value="@Model[i].SumToPay.ToString("0.##", System.Globalization.CultureInfo.InvariantCulture)" type="number" step="0.01" />
+                        </td>
+                        <td>
+                            <input name="Model[@i].BuyerName" value="@Model[i].BuyerName" />
+                        </td>
+                        <td>
+                            <input name="Model[@i].SellerName" value="@Model[i].SellerName" />
+                        </td>
+                        <td>
+                            <input name="Model[@i].InvoiceNumber" value="@Model[i].InvoiceNumber" />
+                        </td>
+                        <td>
+                            <input name="Model[@i].Date" value="@Model[i].Date" />
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <button type="submit" class="btn btn-warning mx-3">Изтегли</button>
+        <a href="Finish" class="btn btn-success mx-3">Готово</a>
+    </form>
+    
+</div>
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $("#showTableBtn").click(function () {
+            $("#tableContainer").slideToggle(); // показва/скрива с анимация
+            var isVisible = $("#tableContainer").is(":visible");
+            $(this).text(isVisible ? "Скрий таблицата" : "Покажи таблицата");
+        });
+    </script>
+}
+
+

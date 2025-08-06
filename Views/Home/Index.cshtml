@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container mt-5 text-center">
+
+    <h1 class="display-4 text-primary mb-4">Добре дошли!</h1>
+
+    <p class="lead mb-5">Моля, изберете действие:</p>
+
+    @if (User.Identity != null && User.Identity.IsAuthenticated)
+    {
+        <div class="d-flex justify-content-center gap-3 flex-wrap">
+            <a href="/Order/Upload" class="btn btn-outline-primary btn-lg">Качи поръчка</a>
+            <a href="/Order/Table" class="btn btn-outline-success btn-lg">Таблица с поръчки</a>
+        </div>
+    }
+    else
+    {
+        <div class="d-flex justify-content-center gap-3 flex-wrap">
+            <a href="/Account/Register" class="btn btn-outline-primary btn-lg">Регистрация</a>
+            <a href="/Account/Login" class="btn btn-outline-success btn-lg">Вход</a>
+        </div>
+    }
+
+</div>
+
+

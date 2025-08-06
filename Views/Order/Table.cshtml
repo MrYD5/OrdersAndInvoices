@@ -1,0 +1,105 @@
+﻿@using TestServer.Models.OrderViewModels
+@model List<SimpleOrderViewModel>
+@{
+    ViewData["Title"] = "Order";
+}
+<div>
+    <form asp-action="OrderLoad" method="post" class="d-inline">
+        <select name ="filter" class="form-select w-auto d-inline">
+            <option value="NotCompleted">Not Completed</option>
+            <option value="Completed">Completed</option>
+        </select>
+        <button type="submit" class="btn btn-success btn-sm">Търси</button>
+    </form>
+</div>
+<table class="table table-bordered table-hover table-sm table-striped w-auto text-center align-middle">
+    <thead>
+        <tr class="table-info">
+            <th></th>
+            <th></th>
+            @foreach (var order in Model)
+            {
+                <th class="text-sm-center" style="padding: 2px; line-height: 0.9;">
+                    @foreach (var ch in order.BuyerName)
+                    {
+                        <span>@ch</span>
+                
+                        <br style="line-height:0.7;" />
+                    }
+                </th>
+            }
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="table-warning">            
+            <td>Продукт:</td>
+            <td>Сума:</td>
+            
+            @foreach (var order in Model)
+        {
+                <td>@order.InvoiceNumber</td>
+        }
+        </tr>
+        @{
+            var allProducts = Model.SelectMany(o => o.Pallets)
+            .Select(p => p.Name)
+            .Distinct()
+            .ToList();
+        }
+
+        @foreach (var product in allProducts)
+        {
+            int sum = 0;
+            <tr>
+                <td class="table-primary">@product</td>
+
+                @foreach (var order in Model)
+                {
+                    var pallet = order.Pallets.FirstOrDefault(p => p.Name == product);
+                    int quantity = pallet != null ? pallet.PalletNumber : 0;
+                    sum += quantity;
+                }
+
+                <td class="table-success fw-bold">@sum</td>
+
+                @foreach (var order in Model)
+                {
+                    var pallet = order.Pallets.FirstOrDefault(p => p.Name == product);
+                    int quantity = pallet != null ? pallet.PalletNumber : 0;
+                    if (quantity == 0)
+                    {
+                        <td class="table-secondary text-light">@quantity</td>
+                    }
+                    else
+                    {
+                        <td class="table-secondary">@quantity</td>
+                    }
+                }
+            </tr>
+        }
+        <tr>
+            <td class="fw-bold table-warning">Номер: </td>
+            <td></td>
+            @foreach (var order in Model)
+            {
+                <td class="table-warning fw-bold">№ @order.Id</td>
+            }
+        </tr>
+    </tbody>
+</table>
+@if (ViewBag.FilterStatus == "False")
+{
+    <h4 class="mt-4 text-center text-danger">Незавършени поръчки:</h4>
+    @foreach (var order in Model)
+    {
+        <div class="border p-3 mb-3">
+            <h5>Поръчка № @order.Id - @order.BuyerName</h5>
+            <p>Обща цена: @order.Price лв.</p>
+
+            <form asp-action="CompleteOrder" method="post" class="d-inline">
+                <input type="hidden" name="orderId" value="@order.Id" />
+                <button type="submit" class="btn btn-success btn-sm">Маркирай като приключена</button>
+            </form>
+        </div>
+    }
+}

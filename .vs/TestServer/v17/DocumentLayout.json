@@ -1,0 +1,1153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\TestServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\ignore.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:ignore.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\services\\homeservice\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:services\\homeservice\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\services\\homeservice\\iinvoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:services\\homeservice\\iinvoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\services\\orderservice\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:services\\orderservice\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\services\\homeservice\\stoneservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:services\\homeservice\\stoneservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\services\\homeservice\\workerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:services\\homeservice\\workerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\services\\homeservice\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:services\\homeservice\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\views\\home\\workers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:views\\home\\workers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\views\\order\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:views\\order\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\middleware\\roleredirectmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:middleware\\roleredirectmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\services\\homeservice\\iworkerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:services\\homeservice\\iworkerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\services\\homeservice\\istoneservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:services\\homeservice\\istoneservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\views\\shared\\_imagelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:views\\shared\\_imagelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\data\\gocegidcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:data\\gocegidcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\data\\checkin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:data\\checkin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\data\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:data\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\TestServer\\bin\\Release\\net8.0\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Release\\net8.0\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\data\\stonetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:data\\stonetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\data\\pallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:data\\pallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\data\\buyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:data\\buyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\data\\orderpallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:data\\orderpallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\services\\homeservice\\idatabaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:services\\homeservice\\idatabaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\views\\order\\table.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:views\\order\\table.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\views\\home\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:views\\home\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\views\\home\\table.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:views\\home\\table.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\TestServer\\bin\\Release\\net8.0\\publish\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Release\\net8.0\\publish\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\TestServer\\bin\\Release\\net8.0\\publish\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Release\\net8.0\\publish\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\testserver.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:testserver.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\TestServer\\bin\\Release\\net8.0\\publish\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Release\\net8.0\\publish\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\TestServer\\obj\\Release\\net8.0\\scopedcss\\bundle\\TestServer.styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Release\\net8.0\\scopedcss\\bundle\\TestServer.styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\views\\home\\database.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:views\\home\\database.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\models\\homeviewmodels\\searchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:models\\homeviewmodels\\searchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\views\\home\\adddata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:views\\home\\adddata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\services\\orderservice\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:services\\orderservice\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\models\\orderviewmodels\\simpleorderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:models\\orderviewmodels\\simpleorderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\models\\homeviewmodels\\simpledataviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:models\\homeviewmodels\\simpledataviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\models\\homeviewmodels\\adddataviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:models\\homeviewmodels\\adddataviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\models\\homeviewmodels\\stoneviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:models\\homeviewmodels\\stoneviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\models\\orderviewmodels\\simplepalletviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:models\\orderviewmodels\\simplepalletviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\data\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:data\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\models\\orderviewmodels\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:models\\orderviewmodels\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\models\\orderviewmodels\\palletviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:models\\orderviewmodels\\palletviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\models\\homeviewmodels\\workerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:models\\homeviewmodels\\workerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\models\\homeviewmodels\\detailedworkerstoneviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:models\\homeviewmodels\\detailedworkerstoneviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\data\\stonecolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:data\\stonecolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\models\\homeviewmodels\\workerstoneviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:models\\homeviewmodels\\workerstoneviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\models\\homeviewmodels\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:models\\homeviewmodels\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\models\\homeviewmodels\\invoiceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:models\\homeviewmodels\\invoiceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\TestServer\\Migrations\\20250616112417_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250616112417_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\TestServer\\Data\\Migrations\\20250614073522_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20250614073522_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\TestServer\\Migrations\\20250614073336_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250614073336_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.300\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\testserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:testserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\data\\migrations\\20250624073644_workerhasquit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:data\\migrations\\20250624073644_workerhasquit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|c:\\users\\user\\source\\repos\\testserver\\data\\migrations\\20250626105716_initialidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7AE573-D110-4E3B-9BFE-9B768DE92D65}|TestServer.csproj|solutionrelative:data\\migrations\\20250626105716_initialidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwCoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:05:57.5Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Services\\OrderService\\OrderService.cs",
+              "RelativeDocumentMoniker": "Services\\OrderService\\OrderService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Services\\OrderService\\OrderService.cs",
+              "RelativeToolTip": "Services\\OrderService\\OrderService.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAhwH8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T07:44:23.531Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ignore.gitignore",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\ignore.gitignore",
+              "RelativeDocumentMoniker": "ignore.gitignore",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\ignore.gitignore",
+              "RelativeToolTip": "ignore.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-06T07:25:51.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-09T08:36:47.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IInvoiceService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Services\\HomeService\\IInvoiceService.cs",
+              "RelativeDocumentMoniker": "Services\\HomeService\\IInvoiceService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Services\\HomeService\\IInvoiceService.cs",
+              "RelativeToolTip": "Services\\HomeService\\IInvoiceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T06:48:58.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InvoiceService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Services\\HomeService\\InvoiceService.cs",
+              "RelativeDocumentMoniker": "Services\\HomeService\\InvoiceService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Services\\HomeService\\InvoiceService.cs",
+              "RelativeToolTip": "Services\\HomeService\\InvoiceService.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAgwIUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T06:50:41.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwC8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T06:56:36.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-14T06:33:13.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StoneService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Services\\HomeService\\StoneService.cs",
+              "RelativeDocumentMoniker": "Services\\HomeService\\StoneService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Services\\HomeService\\StoneService.cs",
+              "RelativeToolTip": "Services\\HomeService\\StoneService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:07:07.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T06:34:50.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAAAGAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T06:18:15.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WorkerService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Services\\HomeService\\WorkerService.cs",
+              "RelativeDocumentMoniker": "Services\\HomeService\\WorkerService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Services\\HomeService\\WorkerService.cs",
+              "RelativeToolTip": "Services\\HomeService\\WorkerService.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAswAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T08:04:45.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DatabaseService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Services\\HomeService\\DatabaseService.cs",
+              "RelativeDocumentMoniker": "Services\\HomeService\\DatabaseService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Services\\HomeService\\DatabaseService.cs",
+              "RelativeToolTip": "Services\\HomeService\\DatabaseService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAjwOQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T06:21:53.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Upload.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Views\\Order\\Upload.cshtml",
+              "RelativeDocumentMoniker": "Views\\Order\\Upload.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Views\\Order\\Upload.cshtml",
+              "RelativeToolTip": "Views\\Order\\Upload.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-19T12:05:12.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T07:44:25.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Workers.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Views\\Home\\Workers.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Workers.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Views\\Home\\Workers.cshtml",
+              "RelativeToolTip": "Views\\Home\\Workers.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAFsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T06:52:22.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RoleRedirectMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Middleware\\RoleRedirectMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\RoleRedirectMiddleware.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Middleware\\RoleRedirectMiddleware.cs",
+              "RelativeToolTip": "Middleware\\RoleRedirectMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T12:34:36.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IWorkerService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Services\\HomeService\\IWorkerService.cs",
+              "RelativeDocumentMoniker": "Services\\HomeService\\IWorkerService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Services\\HomeService\\IWorkerService.cs",
+              "RelativeToolTip": "Services\\HomeService\\IWorkerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:44:13.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IStoneService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Services\\HomeService\\IStoneService.cs",
+              "RelativeDocumentMoniker": "Services\\HomeService\\IStoneService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Services\\HomeService\\IStoneService.cs",
+              "RelativeToolTip": "Services\\HomeService\\IStoneService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:07:07.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T11:15:16.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T11:14:51.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_ImageList.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Views\\Shared\\_ImageList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ImageList.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Views\\Shared\\_ImageList.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ImageList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T12:26:10.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GoceGidContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Data\\GoceGidContext.cs",
+              "RelativeDocumentMoniker": "Data\\GoceGidContext.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Data\\GoceGidContext.cs",
+              "RelativeToolTip": "Data\\GoceGidContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwAgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T08:31:39.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T06:12:12.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Data\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Data\\ApplicationUser.cs",
+              "RelativeToolTip": "Data\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T07:59:36.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "20250626105716_InitialIdentity.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Data\\Migrations\\20250626105716_InitialIdentity.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20250626105716_InitialIdentity.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Data\\Migrations\\20250626105716_InitialIdentity.cs",
+              "RelativeToolTip": "Data\\Migrations\\20250626105716_InitialIdentity.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T10:57:16.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CheckIn.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Data\\CheckIn.cs",
+              "RelativeDocumentMoniker": "Data\\CheckIn.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Data\\CheckIn.cs",
+              "RelativeToolTip": "Data\\CheckIn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T08:23:03.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Data\\Worker.cs",
+              "RelativeDocumentMoniker": "Data\\Worker.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Data\\Worker.cs",
+              "RelativeToolTip": "Data\\Worker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T07:21:32.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\bin\\Release\\net8.0\\appsettings.json",
+              "RelativeDocumentMoniker": "bin\\Release\\net8.0\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\bin\\Release\\net8.0\\appsettings.json",
+              "RelativeToolTip": "bin\\Release\\net8.0\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAChAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-26T08:19:59.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "StoneType.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Data\\StoneType.cs",
+              "RelativeDocumentMoniker": "Data\\StoneType.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Data\\StoneType.cs",
+              "RelativeToolTip": "Data\\StoneType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T11:15:21.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Pallet.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Data\\Pallet.cs",
+              "RelativeDocumentMoniker": "Data\\Pallet.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Data\\Pallet.cs",
+              "RelativeToolTip": "Data\\Pallet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T08:30:42.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Buyer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Data\\Buyer.cs",
+              "RelativeDocumentMoniker": "Data\\Buyer.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Data\\Buyer.cs",
+              "RelativeToolTip": "Data\\Buyer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T08:29:53.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "OrderPallet.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Data\\OrderPallet.cs",
+              "RelativeDocumentMoniker": "Data\\OrderPallet.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Data\\OrderPallet.cs",
+              "RelativeToolTip": "Data\\OrderPallet.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T11:43:55.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IDatabaseService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Services\\HomeService\\IDatabaseService.cs",
+              "RelativeDocumentMoniker": "Services\\HomeService\\IDatabaseService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Services\\HomeService\\IDatabaseService.cs",
+              "RelativeToolTip": "Services\\HomeService\\IDatabaseService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAgAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T11:59:07.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Upload.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Views\\Home\\Upload.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Upload.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Views\\Home\\Upload.cshtml",
+              "RelativeToolTip": "Views\\Home\\Upload.cshtml",
+              "ViewState": "AgIAADEAAAAAAAAAAAAiwDwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T06:32:12.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Table.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Views\\Home\\Table.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Table.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Views\\Home\\Table.cshtml",
+              "RelativeToolTip": "Views\\Home\\Table.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAgwEEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T06:42:10.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Table.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Views\\Order\\Table.cshtml",
+              "RelativeDocumentMoniker": "Views\\Order\\Table.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Views\\Order\\Table.cshtml",
+              "RelativeToolTip": "Views\\Order\\Table.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T06:12:46.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\bin\\Release\\net8.0\\publish\\appsettings.json",
+              "RelativeDocumentMoniker": "bin\\Release\\net8.0\\publish\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\bin\\Release\\net8.0\\publish\\appsettings.json",
+              "RelativeToolTip": "bin\\Release\\net8.0\\publish\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-25T12:21:50.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\bin\\Release\\net8.0\\publish\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "bin\\Release\\net8.0\\publish\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\bin\\Release\\net8.0\\publish\\appsettings.Development.json",
+              "RelativeToolTip": "bin\\Release\\net8.0\\publish\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-25T12:22:23.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "web.config",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\bin\\Release\\net8.0\\publish\\web.config",
+              "RelativeDocumentMoniker": "bin\\Release\\net8.0\\publish\\web.config",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\bin\\Release\\net8.0\\publish\\web.config",
+              "RelativeToolTip": "bin\\Release\\net8.0\\publish\\web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-06-25T11:38:30.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "TestServer",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\TestServer.csproj",
+              "RelativeDocumentMoniker": "TestServer.csproj",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\TestServer.csproj",
+              "RelativeToolTip": "TestServer.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-25T12:20:35.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "TestServer.styles.css",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\obj\\Release\\net8.0\\scopedcss\\bundle\\TestServer.styles.css",
+              "RelativeDocumentMoniker": "obj\\Release\\net8.0\\scopedcss\\bundle\\TestServer.styles.css",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\obj\\Release\\net8.0\\scopedcss\\bundle\\TestServer.styles.css",
+              "RelativeToolTip": "obj\\Release\\net8.0\\scopedcss\\bundle\\TestServer.styles.css",
+              "ViewState": "AgIAACsAAAAAAAAAAIBZwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-25T11:07:40.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Database.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Views\\Home\\Database.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Database.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Views\\Home\\Database.cshtml",
+              "RelativeToolTip": "Views\\Home\\Database.cshtml",
+              "ViewState": "AgIAADgAAAAAAAAAAAApwEoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T06:05:39.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T06:12:05.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "SearchViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Models\\HomeViewModels\\SearchViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\HomeViewModels\\SearchViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Models\\HomeViewModels\\SearchViewModel.cs",
+              "RelativeToolTip": "Models\\HomeViewModels\\SearchViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T06:52:25.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AddData.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Views\\Home\\AddData.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\AddData.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Views\\Home\\AddData.cshtml",
+              "RelativeToolTip": "Views\\Home\\AddData.cshtml",
+              "ViewState": "AgIAAG4AAAAAAAAAAADwv4UAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-19T07:39:12.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Services\\OrderService\\IOrderService.cs",
+              "RelativeDocumentMoniker": "Services\\OrderService\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Services\\OrderService\\IOrderService.cs",
+              "RelativeToolTip": "Services\\OrderService\\IOrderService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T11:25:35.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "SimpleOrderViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Models\\OrderViewModels\\SimpleOrderViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\OrderViewModels\\SimpleOrderViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Models\\OrderViewModels\\SimpleOrderViewModel.cs",
+              "RelativeToolTip": "Models\\OrderViewModels\\SimpleOrderViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T06:58:02.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "20250624073644_WorkerHasQuit.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Data\\Migrations\\20250624073644_WorkerHasQuit.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20250624073644_WorkerHasQuit.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Data\\Migrations\\20250624073644_WorkerHasQuit.cs",
+              "RelativeToolTip": "Data\\Migrations\\20250624073644_WorkerHasQuit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T07:36:44.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "SimpleDataViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Models\\HomeViewModels\\SimpleDataViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\HomeViewModels\\SimpleDataViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Models\\HomeViewModels\\SimpleDataViewModel.cs",
+              "RelativeToolTip": "Models\\HomeViewModels\\SimpleDataViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T06:36:57.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "AddDataViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Models\\HomeViewModels\\AddDataViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\HomeViewModels\\AddDataViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Models\\HomeViewModels\\AddDataViewModel.cs",
+              "RelativeToolTip": "Models\\HomeViewModels\\AddDataViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T07:39:57.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T06:11:57.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "StoneViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Models\\HomeViewModels\\StoneViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\HomeViewModels\\StoneViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Models\\HomeViewModels\\StoneViewModel.cs",
+              "RelativeToolTip": "Models\\HomeViewModels\\StoneViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T11:10:45.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T12:29:30.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "SimplePalletViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Models\\OrderViewModels\\SimplePalletViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\OrderViewModels\\SimplePalletViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Models\\OrderViewModels\\SimplePalletViewModel.cs",
+              "RelativeToolTip": "Models\\OrderViewModels\\SimplePalletViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T06:59:53.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Data\\Order.cs",
+              "RelativeDocumentMoniker": "Data\\Order.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Data\\Order.cs",
+              "RelativeToolTip": "Data\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T11:13:06.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "OrderViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Models\\OrderViewModels\\OrderViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\OrderViewModels\\OrderViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Models\\OrderViewModels\\OrderViewModel.cs",
+              "RelativeToolTip": "Models\\OrderViewModels\\OrderViewModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T08:01:30.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "PalletViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Models\\OrderViewModels\\PalletViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\OrderViewModels\\PalletViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Models\\OrderViewModels\\PalletViewModel.cs",
+              "RelativeToolTip": "Models\\OrderViewModels\\PalletViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T12:01:12.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "WorkerViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Models\\HomeViewModels\\WorkerViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\HomeViewModels\\WorkerViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Models\\HomeViewModels\\WorkerViewModel.cs",
+              "RelativeToolTip": "Models\\HomeViewModels\\WorkerViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T06:24:13.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "DetailedWorkerStoneViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Models\\HomeViewModels\\DetailedWorkerStoneViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\HomeViewModels\\DetailedWorkerStoneViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Models\\HomeViewModels\\DetailedWorkerStoneViewModel.cs",
+              "RelativeToolTip": "Models\\HomeViewModels\\DetailedWorkerStoneViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAABBwA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T10:58:42.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "StoneColor.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Data\\StoneColor.cs",
+              "RelativeDocumentMoniker": "Data\\StoneColor.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Data\\StoneColor.cs",
+              "RelativeToolTip": "Data\\StoneColor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T07:22:12.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "WorkerStoneViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Models\\HomeViewModels\\WorkerStoneViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\HomeViewModels\\WorkerStoneViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Models\\HomeViewModels\\WorkerStoneViewModel.cs",
+              "RelativeToolTip": "Models\\HomeViewModels\\WorkerStoneViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T08:58:55.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "InvoiceViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Models\\HomeViewModels\\InvoiceViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\HomeViewModels\\InvoiceViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Models\\HomeViewModels\\InvoiceViewModel.cs",
+              "RelativeToolTip": "Models\\HomeViewModels\\InvoiceViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T12:41:54.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Models\\HomeViewModels\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\HomeViewModels\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Models\\HomeViewModels\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\HomeViewModels\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T06:23:29.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "20250616112417_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Migrations\\20250616112417_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250616112417_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Migrations\\20250616112417_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20250616112417_InitialCreate.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T11:24:18.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "20250614073336_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Migrations\\20250614073336_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250614073336_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Migrations\\20250614073336_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20250614073336_InitialCreate.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T07:33:36.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "20250614073522_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\Data\\Migrations\\20250614073522_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20250614073522_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\Data\\Migrations\\20250614073522_InitialCreate.cs",
+              "RelativeToolTip": "Data\\Migrations\\20250614073522_InitialCreate.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T07:35:22.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.300\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.300\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-06-13T07:30:48.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "TestServer.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\TestServer.csproj",
+              "RelativeDocumentMoniker": "TestServer.csproj",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\TestServer.csproj",
+              "RelativeToolTip": "TestServer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-09T08:31:27.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-10T06:20:15.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "bootstrap.js",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TestServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TestServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+              "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-10T06:20:28.436Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

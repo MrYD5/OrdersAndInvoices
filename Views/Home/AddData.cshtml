@@ -1,0 +1,133 @@
+﻿@using TestServer.Models.HomeViewModels
+@model SimpleDataViewModel;
+
+<style>
+    .delete-btn {
+        display: none;
+        margin-left: 10px;
+    }
+
+    tr:hover .delete-btn {
+        display: inline-block;
+    }
+
+    .toggle-btn {
+        width: 100%;
+    }
+
+    .section-card {
+        min-width: 200px;
+        max-width: 250px;
+    }
+</style>
+
+<div class="container mt-4">
+
+    <h2 class="text-primary text-center mb-4">Добави нова стойност</h2>
+
+    <form asp-action="AddData" method="post" class="d-flex flex-wrap gap-2 justify-content-center mb-4">
+        <select name="DataEntry" class="form-select w-auto">
+            <option value="Worker">Работник</option>
+            <option value="Color">Камък (Цвят)</option>
+            <option value="Type">Камък (Вид)</option>
+        </select>
+
+        <input type="text" name="Value" class="form-control w-auto" placeholder="Въведи стойност">
+
+        <button type="submit" class="btn btn-success">Добави</button>
+    </form>
+
+    @if (TempData["Message"] != null)
+    {
+        <div class="alert alert-danger text-center">@TempData["Message"]</div>
+    }
+
+    <div class="d-flex flex-wrap justify-content-center gap-4">
+
+        <div class="section-card border rounded shadow-sm p-2">
+            <button class="btn btn-info mb-2 toggle-btn">Работници</button>
+            <div class="table-container overflow-hidden" style="max-height: 0; transition: max-height 0.5s ease;">
+                <table class="table table-primary table-sm table-bordered">
+                    <thead class="table-info text-center">
+                        <tr><th>Име</th></tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var worker in Model.Workers)
+                        {
+                            <tr>
+                                <td class="text-center position-relative table-secondary">
+                                    @worker.Name
+                                    <form method="post" asp-action="DeleteWorker" asp-route-id="@worker.Id" class="d-inline">
+                                        <button type="submit" class="btn btn-danger btn-sm delete-btn">Изтрий</button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section-card border rounded shadow-sm p-2">
+            <button class="btn btn-info mb-2 toggle-btn">Камъни (Цвят)</button>
+            <div class="table-container overflow-hidden" style="max-height: 0; transition: max-height 0.5s ease;">
+                <table class="table table-primary table-sm table-bordered">
+                    <thead class="table-info text-center">
+                        <tr><th>Цвят</th></tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var color in Model.StoneColors)
+                        {
+                            <tr>
+                                <td class="text-center position-relative table-secondary">
+                                    @color.Color
+                                    <form method="post" asp-action="DeleteColor" asp-route-id="@color.Id" class="d-inline">
+                                        <button type="submit" class="btn btn-danger btn-sm delete-btn">Изтрий</button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section-card border rounded shadow-sm p-2">
+            <button class="btn btn-info mb-2 toggle-btn">Камъни (Вид)</button>
+            <div class="table-container overflow-hidden" style="max-height: 0; transition: max-height 0.5s ease;">
+                <table class="table table-primary table-sm table-bordered">
+                    <thead class="table-info text-center">
+                        <tr><th>Вид</th></tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var type in Model.StoneTypes)
+                        {
+                            <tr>
+                                <td class="text-center position-relative table-secondary">
+                                    @type.Type
+                                    <form method="post" asp-action="DeleteType" asp-route-id="@type.Id" class="d-inline">
+                                        <button type="submit" class="btn btn-danger btn-sm delete-btn">Изтрий</button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.querySelectorAll(".toggle-btn").forEach(function (button) {
+            button.addEventListener("click", function () {
+                const container = button.nextElementSibling;
+                container.style.maxHeight = container.style.maxHeight === "0px" || container.style.maxHeight === ""
+                    ? container.scrollHeight + "px"
+                    : "0px";
+            });
+        });
+    </script>
+}

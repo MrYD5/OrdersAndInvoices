@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Order";
+}
+
+<div class="container mt-5">
+
+    <h2 class="text-center mb-4 text-primary">Качване на Excel файл</h2>
+
+    <div class="card shadow-sm p-4">
+
+        <form asp-action="UploadExcel" method="post" enctype="multipart/form-data">
+
+            <div class="mb-3">
+                <label for="excelFile" class="form-label fw-bold">Избери Excel файл (.xlsx, .xls):</label>
+                <input class="form-control" type="file" name="excelFile" id="excelFile" accept=".xlsx,.xls" required>
+            </div>
+
+            <div class="d-flex justify-content-end">
+                <button type="submit" class="btn btn-success">Качи</button>
+            </div>
+        </form>
+
+    </div>
+
+    @if (TempData["Message"] != null)
+    {
+        <div class="alert alert-info alert-dismissible fade show mt-4" role="alert">
+            @TempData["Message"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+</div>

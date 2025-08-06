@@ -1,0 +1,159 @@
+﻿@using TestServer.Models.HomeViewModels
+@model WorkersCheckInViewModel
+
+@{
+    ViewData["Title"] = "Worker";
+    bool edit = Model.EditableData != null;
+}
+
+<div class="container mt-4">
+
+    <h2 class="text-primary mb-4 text-center">@((edit) ? "Редакция на запис" : "Добави нов запис")</h2>
+
+    <div class="card shadow-sm p-4 mb-4">
+        <form asp-action="SubmitProducts" method="post">
+
+            <div id="productContainer">
+                <div class="productRow row g-2 align-items-end" data-index="0">
+
+                    <div class="col-md-3">
+                        <label class="form-label">Цвят</label>
+                        <select class="form-select" name="WorkerInfo[0].Color" required>
+                            <option value="" disabled selected hidden>Избери цвят</option>
+                            @foreach (var color in Model.Stones.StoneColor)
+                            {
+
+                                if (edit && Model.EditableData.Color == color)
+                                {
+                                    <option value="@color" selected>@color</option>
+                                }
+                                else
+                                {
+                                    <option value="@color">@color</option>
+                                }
+                                
+                            }
+                        </select>
+                    </div>
+
+                    <div class="col-md-3">
+                        <label class="form-label">Вид</label>
+                        <select class="form-select" name="WorkerInfo[0].SelectedType" required>
+                            <option value="" disabled selected hidden>Избери вид</option>
+                            @foreach (var type in Model.Stones.StoneType)
+                            {
+                                if (edit && Model.EditableData.SelectedType == type)
+                                {
+                                    <option value="@type" selected>@type</option>
+                                }
+                                else
+                                {
+                                    <option value="@type">@type</option>
+                                }
+                            }
+                        </select>
+                    </div>
+
+                    <div class="col-md-2">
+                        <label class="form-label">Количество</label>
+                        <input type="number" name="WorkerInfo[0].Amount" min="0" max="100" step="1" class="form-control" placeholder="0" value="@(edit ? Model.EditableData.Amount : 0)" required />
+                    </div>
+
+                    <div class="col-md-3">
+                        <label class="form-label">Работник</label>
+                        <select class="form-select" name="WorkerInfo[0].Worker" required>
+                            <option value="" disabled selected hidden>Избери работник</option>
+                            @foreach (var worker in Model.Workers)
+                            {
+                                if (edit && Model.EditableData.Worker == worker.Name)
+                                {
+                                    <option value="@worker.Name" selected>@worker.Name</option>
+                                }
+                                else
+                                {
+                                    <option value="@worker.Name">@worker.Name</option>
+                                }
+                            }
+                        </select>
+                    </div>
+
+                    @if (edit)
+                    {
+                        <input type="hidden" name="WorkerInfo[0].Id" value="@Model.EditableData.Id" />
+                    }
+
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-between mt-3">
+                <button type="button" id="addRowBtn" class="btn btn-outline-primary">Добави още</button>
+                <button type="submit" class="btn btn-success">Запази</button>
+            </div>
+        </form>
+    </div>
+    @if (TempData["Role"] == "Admin")
+    {
+    <a href="CheckInsExcel" class="btn btn-success" style="margin: 5px">Изтегли за деня</a>
+    }
+    <h4 class="text-secondary mb-3">Списък с въведени данни</h4>
+
+    <table class="table table-bordered table-striped table-sm text-center ">
+        <thead class="table-info">
+            <tr>
+                <th>Цвят</th>
+                <th>Вид</th>
+                <th>Количество</th>
+                <th>Работник</th>
+                <th>Дата</th>
+                <th>Действие</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.WorkerDataCurretDate)
+            {
+                <tr class="@(edit && Model.EditableData.Id == item.Id ? "table-danger" : "") ">
+                    <form asp-action="UpdateRow" method="post">
+                        <input type="hidden" name="Id" value="@item.Id" />
+
+                        <td><input class="form-control" name="Color" value="@item.Color" readonly /></td>
+                        <td><input class="form-control" name="SelectedType" value="@item.SelectedType" readonly /></td>
+                        <td><input type="number" class="form-control" name="Amount" value="@item.Amount" readonly /></td>
+                        <td><input class="form-control" name="Worker" value="@item.Worker" readonly /></td>
+                        <td class="justify-content-center">@DateTime.Now.ToString("dd/MM/yyyy")</td>
+                        <td>
+                            <button type="submit" class="btn btn-sm btn-outline-info">Избери</button>
+                        </td>
+                    </form>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>
+
+@section Scripts {
+<script>
+    let index = 1;
+
+    document.getElementById("addRowBtn").addEventListener("click", function () {
+        const container = document.getElementById("productContainer");
+        const firstRow = container.querySelector(".productRow");
+        const clone = firstRow.cloneNode(true);
+
+        clone.setAttribute("data-index", index);
+        clone.querySelectorAll("input, select").forEach(el => {
+            if (el.tagName === "INPUT") el.value = el.type === "number" ? 0 : "";
+            if (el.tagName === "SELECT") el.selectedIndex = 0;
+
+            const name = el.getAttribute("name");
+            if (name) {
+                const newName = name.replace(/\[\d+\]/, `[${index}]`);
+                el.setAttribute("name", newName);
+            }
+        });
+
+        container.appendChild(clone);
+        index++;
+    });
+</script>
+}

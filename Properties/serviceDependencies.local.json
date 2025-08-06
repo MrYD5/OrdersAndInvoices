@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets.user"
+    },
+    "mssql1": {
+      "secretStore": "LocalSecretsFile",
+      "type": "mssql.local",
+      "connectionId": "Server=DESKTOP-D8J84LS:SQLEXPRESS;Database=Invoice;IntegratedSecurity=true;"
+    }
+  }
+}

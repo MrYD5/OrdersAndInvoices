@@ -1,0 +1,165 @@
+﻿@using TestServer.Models.HomeViewModels
+@model DetailedWorkerStoneViewModel
+
+<div class="container py-4">
+
+    <h2 class="text-primary text-center mb-4">🔎 Филтрирай записите</h2>
+
+    <form asp-action="SearchDatabase" method="post" class="row g-4 justify-content-center bg-light border rounded p-4 shadow-sm">
+
+        <div class="col-md-5">
+            <label for="mainSelect" class="form-label fw-bold">Основен филтър</label>
+            <select id="mainSelect" name="mainSelect" class="form-select">
+                <option value="" disabled selected hidden>Избери филтър</option>
+                <option value="WorkerName">Работиник</option>
+                <option value="Color">Камък (Цвят)</option>
+                <option value="Amount">Количество</option>
+                <option value="Type">Вид</option>
+                <option value="Date">Дата</option>
+            </select>
+            <div id="dynamicSelectContainer" class="mt-2"></div>
+        </div>
+
+        <div class="col-md-5">
+            <label for="secondarySelect" class="form-label fw-bold">Допълнителен филтър</label>
+            <select id="secondarySelect" name="secondarySelect" class="form-select">
+                <option value="" disabled selected hidden>Избери допълнителен филтър</option>
+                <option value="WorkerName">Работиник</option>
+                <option value="Color">Камък (Цвят)</option>
+                <option value="Amount">Количество</option>
+                <option value="Type">Вид</option>
+                <option value="Date">Дата</option>
+            </select>
+            <div id="secondarySelectContainer" class="mt-2"></div>
+        </div>
+
+        <div class="col-12 text-center" id="dateRangeCheckboxContainer" style="display: none;">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="myCheckbox" name="SearchDateToDate" value="true">
+                <label class="form-check-label" for="myCheckbox">Търси от дата до дата</label>
+            </div>
+        </div>
+
+        <div class="col-12 text-center">
+            <button type="submit" class="btn btn-success px-4">Търси</button>
+        </div>
+
+        <span id="modelData"
+              data-workers='@Html.Raw(Json.Serialize(Model.Workers))'
+              data-colors='@Html.Raw(Json.Serialize(Model.Stones.StoneColor))'
+              data-types='@Html.Raw(Json.Serialize(Model.Stones.StoneType))'>
+        </span>
+
+    </form>
+
+    <div class="text-center mt-4">
+        <button id="toggleTableBtn" class="btn btn-primary px-4">Покажи таблицата</button>
+    </div>
+
+    <div id="tableContainer" class="table-responsive mt-4" style="display: none;">
+        <table class="table table-bordered table-hover table-striped text-center align-middle">
+            <thead class="table-info">
+                <tr>
+                    <th>Камък (Цвят)</th>
+                    <th>Вид</th>
+                    <th>Количество</th>
+                    <th>Работник</th>
+                    <th>Дата</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var checkIn in Model.CheckIns)
+                {
+                    <tr>
+                        <td>@checkIn.Color</td>
+                        <td>@checkIn.SelectedType</td>
+                        <td>@checkIn.Amount</td>
+                        <td>@checkIn.Worker</td>
+                        <td>@checkIn.Date.ToString("dd/MM/yyyy")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $('#toggleTableBtn').click(function () {
+            const $btn = $(this);
+            $('#tableContainer').slideToggle(300, function () {
+                $btn.text($(this).is(':visible') ? 'Скрий таблицата' : 'Покажи таблицата');
+            });
+        });
+
+        const dataSpan = document.getElementById("modelData");
+        const optionsData = {
+            "WorkerName": JSON.parse(dataSpan.dataset.workers),
+            "Color": JSON.parse(dataSpan.dataset.colors),
+            "Amount": "number",
+            "Type": JSON.parse(dataSpan.dataset.types),
+            "Date": "date"
+        };
+
+        function renderDynamicField(selectId, containerId, fieldName) {
+            const selected = document.getElementById(selectId).value;
+            const container = document.getElementById(containerId);
+            container.innerHTML = "";
+
+            if (Array.isArray(optionsData[selected])) {
+                container.innerHTML = `
+                    <select name="${fieldName}" class="form-select mt-2">
+                        <option disabled selected hidden>Избери стойност</option>
+                        ${optionsData[selected].map(opt => `<option value="${opt}">${opt}</option>`).join("")}
+                    </select>`;
+            }
+            else if (optionsData[selected] === "number") {
+                container.innerHTML = `
+                    <input type="number" name="${fieldName}" class="form-control mt-2" placeholder="Въведи количество">`;
+            }
+            else if (optionsData[selected] === "date") {
+                container.innerHTML = `
+                    <input type="date" name="${fieldName}" class="form-control mt-2">`;
+            }
+        }
+
+        function handleDateRangeCheckbox() {
+            const container = document.getElementById("secondarySelectContainer");
+            const isRange = document.getElementById("dateRangeCheckbox").checked;
+
+            container.innerHTML = isRange ? `
+                <label class="form-label mt-2">Крайна дата</label>
+                <input type="date" name="secondFilterValue" class="form-control">` : "";
+            if (!isRange) {
+                renderDynamicField("secondarySelect", "secondarySelectContainer", "secondFilterValue");
+            }
+        }
+
+        function toggleDateCheckbox() {
+            const main = document.getElementById("mainSelect").value;
+            const second = document.getElementById("secondarySelect").value;
+            const container = document.getElementById("dateRangeCheckboxContainer");
+
+            if (main === "Date" && second === "Date") {
+                container.style.display = "block";
+            } else {
+                container.style.display = "none";
+                document.getElementById("dateRangeCheckbox").checked = false;
+            }
+        }
+
+        document.getElementById("mainSelect").addEventListener("change", function () {
+            renderDynamicField("mainSelect", "dynamicSelectContainer", "filterValue");
+            toggleDateCheckbox();
+        });
+
+        document.getElementById("secondarySelect").addEventListener("change", function () {
+            renderDynamicField("secondarySelect", "secondarySelectContainer", "secondFilterValue");
+            toggleDateCheckbox();
+        });
+
+        document.getElementById("dateRangeCheckbox").addEventListener("change", handleDateRangeCheckbox);
+    </script>
+}

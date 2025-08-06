@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets"
+    },
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "Server=DESKTOP-D8J84LS:SQLEXPRESS;Database=Invoice;IntegratedSecurity=true;"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+﻿@model List<string>
+
+<div class="d-flex flex-wrap gap-3">
+    @foreach (var path in Model)
+    {
+        var fileName = System.IO.Path.GetFileName(path);
+
+        <div class="position-relative" style="width: 200px;">
+            <img src="@path" class="img-thumbnail w-100" />
+
+            <form method="post" asp-action="DeleteImage" asp-controller="Home" asp-route-fileName="@fileName" class="delete-form">
+                <button type="submit" class="btn btn-danger btn-sm position-absolute top-0 end-0 m-1 delete-button" style="display:none;">
+                    &#10006;
+                </button>
+            </form>
+        </div>
+    }
+</div>
